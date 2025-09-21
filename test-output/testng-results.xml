@@ -2,24 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-21T18:12:12 IST" name="Default suite" finished-at="2025-09-21T18:12:19 IST" duration-ms="6588">
+  <suite started-at="2025-09-21T19:16:21 IST" name="Default suite" finished-at="2025-09-21T19:16:38 IST" duration-ms="16645">
     <groups>
     </groups>
-    <test started-at="2025-09-21T18:12:12 IST" name="Default test" finished-at="2025-09-21T18:12:19 IST" duration-ms="6588">
-      <class name="testcases.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.RegisterTest@62379589]" started-at="2025-09-21T18:12:12 IST" name="setUp" finished-at="2025-09-21T18:12:16 IST" duration-ms="3635" status="PASS">
+    <test started-at="2025-09-21T19:16:21 IST" name="Default test" finished-at="2025-09-21T19:16:38 IST" duration-ms="16645">
+      <class name="testcases.CameraTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:testcases.CameraTest@510f3d34]" started-at="2025-09-21T19:16:21 IST" name="setupReport" finished-at="2025-09-21T19:16:22 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.CameraTest@510f3d34]" started-at="2025-09-21T19:16:22 IST" name="setUp" finished-at="2025-09-21T19:16:33 IST" duration-ms="11283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRegistration()[pri:0, instance:testcases.RegisterTest@62379589]" started-at="2025-09-21T18:12:16 IST" name="testRegistration" finished-at="2025-09-21T18:12:19 IST" duration-ms="2686" status="PASS">
+        <test-method signature="testRegistration()[pri:0, instance:testcases.CameraTest@510f3d34]" started-at="2025-09-21T19:16:33 IST" name="testRegistration" finished-at="2025-09-21T19:16:36 IST" duration-ms="3057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterTest@62379589]" started-at="2025-09-21T18:12:19 IST" name="tearDown" finished-at="2025-09-21T18:12:19 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.CameraTest@510f3d34]" started-at="2025-09-21T19:16:36 IST" name="tearDown" finished-at="2025-09-21T19:16:37 IST" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.RegisterTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testcases.CameraTest@510f3d34]" started-at="2025-09-21T19:16:37 IST" name="flushReport" finished-at="2025-09-21T19:16:38 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testcases.CameraTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testcases.RegisterTest"/>
+      <class name="testcases.CameraTest"/>
       <class name="testcases.SearchItemTest"/>
     </classes>
   </test> <!-- Test -->
